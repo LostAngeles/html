@@ -1,0 +1,15 @@
+{
+  "background_color": "violet",
+  "description": "LostAngeles",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "assets/images/icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "name": "LostAngeles",
+  "short_name": "LostAngeles",
+  "start_url": "index.html"
+}
