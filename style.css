@@ -209,6 +209,7 @@ body {
 
 .code-arrow {
 	opacity: 1;
+	margin-top: -2px;
 }
 
 .browser-image-container {
