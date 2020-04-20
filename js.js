@@ -43,6 +43,7 @@ function letsContinue() {
 		document.getElementById('first-browser').style.opacity = "1"; 
 		break;
 		case 12:
+		document.getElementById('first-browser').style.justifyContent = 'flex-end';
 		document.getElementById('first-code').style.width = "115px";
 		setTimeout(function () {
 			document.getElementById('first-code').style.opacity = "1";
@@ -239,6 +240,18 @@ function letsContinue() {
 		setTimeout(function () {
 			document.getElementById('zero-seven').style.opacity = "1"; 
 		}, 1600)
+		break;
+		case 37:
+		document.getElementById('view').style.opacity = "0";
+		setTimeout(function () {
+			document.getElementById('view').style.display = "none";
+		},500)
+		setTimeout(function () {
+			document.getElementById('thanks').style.display = "block";
+		},600)
+		setTimeout(function () {
+			document.getElementById('thanks').style.opacity = "1";
+		},700)
 		break;
 		default:
 		alert( "error");
