@@ -4,13 +4,13 @@ function letsContinue() {
 	console.log(part)
 	switch (part) {
 		case 1:
-		document.getElementById('roof').style.opacity = "1";
+		document.getElementById('foundation').style.opacity = "1";		
 		break;
 		case 2:
 		document.getElementById('walls').style.opacity = "1";
 		break;
 		case 3:
-		document.getElementById('foundation').style.opacity = "1";
+		document.getElementById('roof').style.opacity = "1";
 		break;
 		case 4:
 		document.getElementById('picture-first').style.opacity = "1";
